@@ -14,9 +14,6 @@ body{
 
 }
 .quadrado:hover{
-    background-color: aqua;    
+    background-color: aqua;  
+    transform: scale(1.5);  
 }
-
-
-
-
