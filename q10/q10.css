@@ -1,0 +1,34 @@
+body{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+.img {
+    height: 200px;
+    
+
+
+    
+
+}
+.img1{
+    width: 200px;
+    height: 200px;
+    transition: 5s;
+    position: relative;
+    animation-name: direita;
+    animation-duration: 2s;
+    animation-timing-function:ease-in-out;
+    animation-iteration-count: 1;
+
+}
+
+@keyframes direita{
+    from{
+        right:0px; top:0px;
+    }
+    to{
+        right: 650px; top: -240px; width: 70px; height: 70px;
+    }
+}

@@ -1,0 +1,32 @@
+body{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+.quadrado{
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    transition: 2s;
+    position: relative;
+    animation-name: direita;
+    animation-duration: 10s;
+    animation-timing-function:ease-in-out;
+    animation-iteration-count: infinite;
+
+
+    
+
+}
+
+@keyframes direita{
+    12.5% {transform: rotate(45deg);background-color: black; }
+    25%   {transform: rotate(90deg); background-color: aqua;}
+    37.5% {transform: rotate(135deg);background-color: blue;}
+    50%   {transform: rotate(180deg);background-color: crimson;}
+    62.5% {transform: rotate(225deg);background-color: darkorchid;}
+    75%   {transform: rotate(270deg);background-color: goldenrod;}
+    87.5% {transform: rotate(315deg);background-color: violet; }
+    100%  {transform: rotate(360deg);background-color: darkgreen;}
+}

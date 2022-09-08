@@ -1,0 +1,26 @@
+body{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+.quadrado{
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    transition: 3s;
+    position: relative;
+    animation-name: direita;
+    animation-duration: 3s;
+    animation-timing-function:ease;
+    animation-iteration-count: infinite;
+
+
+    
+
+}
+
+@keyframes direita{
+    50% {transform: rotate(45deg);
+}
+}
