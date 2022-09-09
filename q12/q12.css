@@ -1,0 +1,35 @@
+body{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+.quadrado{
+    background-color: rgb(0, 0, 0);
+    color: crimson;
+    transition: 1s;
+    position: relative;
+    animation-name: rotacao;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    padding-left: 2%;
+    
+
+}
+button{
+    color: blueviolet;
+    background-color: gray;
+    width: 50px;
+    height: 30px;
+    
+}
+
+ @keyframes rotacao{
+    from{
+        left: 0px; top: -600px;
+    }
+    to{
+        left: 0px; top: 0px;
+    }
+} 
