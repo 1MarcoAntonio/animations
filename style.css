@@ -1,0 +1,13 @@
+.bt{
+    padding: 25px 25px;
+    color: crimson;
+    background-color:darksalmon;
+    scale: 1;
+    
+}
+body{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
